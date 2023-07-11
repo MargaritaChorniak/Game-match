@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Match Game</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h1 class="title">Match Game</h1>
+    <div id="game-board" class="container">
+        <div id="matches-container"></div>
+        <div id="player-turn">
+            <button class="button" onclick="takeMatches(1)">Take 1</button>
+            <button class="button" onclick="takeMatches(2)">Take 2</button>
+            <button class="button" onclick="takeMatches(3)">Take 3</button>
+        </div>
+    </div>
+    <div id="result"></div>
+    <!-- <button id="restart" class="button">Restart</button> -->
+</body>
+<script src="./script.js"></script>
+</html>
